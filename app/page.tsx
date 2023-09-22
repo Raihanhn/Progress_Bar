@@ -1,3 +1,4 @@
+"use client";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <div className="">
       <Navbar />
+
       <div className=" mt-20 grid place-items-center ">
         <div className=" grid grid-cols-3 space-x-4  ">
           <Link href="/lemon">
@@ -26,6 +28,17 @@ export default function Home() {
               Chilli
             </div>
           </Link>
+        </div>
+        <div className=" flex gap-5 mt-5 ">
+          <div id="apple"></div>
+
+          <div id="orange"></div>
+
+          <div id="lemon"></div>
+
+          <div id="pear"></div>
+
+          <div id="watermelon"></div>
         </div>
       </div>
     </div>
